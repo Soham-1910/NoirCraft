@@ -15,14 +15,16 @@
   <meta property="og:url" content="https://noircraft.com/" />
   <meta property="og:title" content="NOIRCRAFT | Luxury Fashion" />
   <meta property="og:description" content="Minimal luxury fashion crafted for those who embrace the night." />
-  <meta property="og:image" content="/og-image.jpg" />
+  <meta property="og:image" content="assets/og-image.jpeg" />
 
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:title" content="NOIRCRAFT" />
+  <meta property="twitter:url" content="https://noircraft.com/" />
+  <meta property="twitter:title" content="NOIRCRAFT | Luxury Fashion" />
   <meta property="twitter:description" content="Minimal luxury fashion crafted for those who embrace the night." />
+  <meta property="twitter:image" content="assets/og-image.jpeg" />
 
-  <link rel="icon" type="image/png" href="/assets/logo.png">
-  <link rel="apple-touch-icon" href="/assets/logo.png">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="manifest" href="/site.webmanifest">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +37,16 @@
     body {
       background-color: black;
       margin: 0;
-      /* Prevents horizontal scroll on mobile during animations */
       overflow-x: hidden;
+      /* Smooth font rendering for luxury feel */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Professional Touch: Custom Selection Color (White text on Gray background) */
+    ::selection {
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
     }
   </style>
 </head>
