@@ -20,6 +20,7 @@ NOIRCRAFT is a minimalist luxury e-commerce platform. It combines a high-fashion
 - **Icons:** [Lucide React](https://lucide.dev/)
 
 ## 📂 Project Structure
+```text
 
 src/
 ├── api/          # Centralized API logic and Fetch wrappers
